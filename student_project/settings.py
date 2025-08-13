@@ -8,7 +8,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-test-key')
 
 DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = ['sonukumarproject143.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['sonukumarproject143-2.onrender.com', 'localhost', '127.0.0.1']
+
 
 INSTALLED_APPS = [
     'django.contrib.admin',
